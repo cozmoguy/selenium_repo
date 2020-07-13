@@ -1,5 +1,5 @@
 from selenium import webdriver
-
+#script to crawl wikipedia and make a dict
 
 browser = webdriver.Chrome()
 browser.get('https://en.wikipedia.org/wiki/List_of_effects')
